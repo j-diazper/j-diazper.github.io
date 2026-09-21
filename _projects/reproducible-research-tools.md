@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Reproducible research tools
-description: Notes and code for transparent medical imaging experiments.
+title: Diffusion MRI and olfactory rehabilitation
+description: BSc thesis and research project on post-COVID-19 anosmia using diffusion MRI.
 importance: 3
-category: software
+category: research
 ---
 
-This page is a placeholder for tools, scripts, and workflows that support reproducible research in AI for MRI and medical imaging.
+During my BSc in Biomedical Engineering at Universidad Rey Juan Carlos, I worked on diffusion MRI analysis of olfactory rehabilitation in patients with post-COVID-19 anosmia.
 
-It can later link to GitHub repositories, experiment logs, evaluation dashboards, or technical notes.
+The project used longitudinal diffusion MRI and statistical analysis to investigate neuroplasticity following olfactory rehabilitation. The work was carried out in collaboration with GE Healthcare and contributed to a digital poster presented at the ESMRMB Annual Scientific Meeting in 2023.

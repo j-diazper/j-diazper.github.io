@@ -2,15 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student in artificial intelligence for MRI.
+subtitle: DDSA PhD Fellow in physics-informed AI for MRI.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>AI for MRI</p>
-    <p>Medical imaging and deep learning</p>
+    <p>DTU and DRCMR</p>
+    <p>Copenhagen, Denmark</p>
+    <p><a href="https://ddsa.dk/member/jesus-diaz-pereira/">DDSA profile</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,15 +27,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student working at the intersection of artificial intelligence and magnetic resonance imaging. My research interests include learning-based MRI reconstruction, medical image analysis, robust deep learning, and clinically useful AI systems for imaging.
+I am a DDSA PhD Fellow working at the intersection of artificial intelligence, magnetic resonance imaging, and neuroimaging. My PhD project, **Reliable Cortical Interface Diffusion Imaging via Physics-Informed Deep Learning**, is based at the Technical University of Denmark and the Danish Research Centre for Magnetic Resonance.
 
-This website is a place to collect my research, projects, publications, and notes as my PhD develops. I am especially interested in methods that are technically rigorous, reproducible, and useful for real clinical imaging workflows.
+My research focuses on physics-informed deep learning for diffusion MRI, with a particular interest in correcting motion, eddy-current, and susceptibility-induced distortions in ultra-high-field MRI. I am interested in methods that connect MR physics, inverse problems, and reliable AI systems for clinically meaningful imaging.
 
-At the moment, the site is intentionally minimal. I will expand it with publications, project writeups, code, and teaching or presentation material over time.
+Before starting my PhD, I completed an MSc in Human-Centered Artificial Intelligence at DTU and a BSc in Biomedical Engineering at Universidad Rey Juan Carlos. I have worked on 7T diffusion MRI, fMRI motion correction, post-COVID-19 olfactory rehabilitation, and large-scale neuroimaging pipelines for multiple sclerosis research.
 
 ## Research interests
 
-- Deep learning for MRI reconstruction and image enhancement
-- Medical image analysis, segmentation, and quantitative imaging
-- Robustness, uncertainty, and evaluation of AI systems in clinical settings
-- Reproducible research tools for medical imaging
+- Physics-informed deep learning for MRI reconstruction and artifact correction
+- Ultra-high-field diffusion MRI and quantitative neuroimaging
+- Motion correction, image registration, and distortion correction
+- Reliable, reproducible AI methods for clinical and translational MRI
+
+## Current project
+
+My PhD project develops physics-informed implicit neural representations operating directly on k-space data to enable geometrically accurate, high-resolution in vivo diffusion imaging across cortical layers within feasible scan time.

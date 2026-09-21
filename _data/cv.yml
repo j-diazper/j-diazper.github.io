@@ -1,42 +1,131 @@
 cv:
-  name: Jesus Diaz Pereira
-  label: PhD student in AI for MRI
-  email: ""
-  location: ""
+  name: Jesús Díaz Pereira
+  label: DDSA PhD Fellow in AI for MRI
+  email: jdiazper2001@gmail.com
+  location: Copenhagen, Denmark
   image: ""
-  summary: PhD student working at the intersection of artificial intelligence, MRI, and medical imaging.
+  summary: Biomedical engineer and AI researcher specializing in physics-informed deep learning for MRI reconstruction, artifact correction, and neuroimaging.
 
   social_networks:
     - network: GitHub
       username: j-diazper
+    - network: LinkedIn
+      username: jesús-díaz-pereira-2a24b624b
 
   sections:
     Education:
-      - institution: Add university name
-        location: Add location
-        area: Artificial Intelligence for MRI
-        studyType: PhD
-        start_date: 2026
+      - institution: Technical University of Denmark (DTU)
+        location: Denmark
+        area: Human-Centered Artificial Intelligence
+        studyType: MSc
+        start_date: 2023
+        end_date: 2026
+        highlights:
+          - Specialized in deep learning for MRI reconstruction and artifact correction.
+          - Master's thesis on deep learning for correcting susceptibility and eddy-current distortions in ultra-high-field diffusion MRI.
+
+      - institution: Universidad Rey Juan Carlos
+        location: Spain
+        area: Biomedical Engineering
+        studyType: BSc
+        start_date: 2019
+        end_date: 2023
+        highlights:
+          - Completed six courses with honors.
+          - Bachelor's thesis on diffusion MRI analysis of olfactory rehabilitation in post-COVID-19 anosmia.
+
+    Experience:
+      - company: TracInnovations
+        position: Student Engineer, MR Science Team
+        location: Denmark
+        start_date: 2024-09
         end_date: present
         highlights:
-          - Research interests include learning-based MRI reconstruction, medical image analysis, and robust AI for clinical imaging.
+          - Designed and executed fMRI studies evaluating prospective motion correction performance using markerless optical tracking.
+          - Contributed to technical validation of a k-space-domain retrospective motion correction pipeline using optical tracking-derived motion parameters.
+          - Collaborated with MRI vendors on integration pathways for motion correction within scanner reconstruction workflows.
 
-    Research Interests:
-      - name: AI for MRI
+      - company: Danish Research Centre for Magnetic Resonance (DRCMR)
+        position: Student Assistant, Neuroimaging in MS Group
+        location: Denmark
+        start_date: 2023-09
+        end_date: 2024-08
         highlights:
-          - Deep learning for MRI reconstruction and image enhancement.
-          - Medical image analysis, segmentation, and quantitative imaging.
-          - Robustness, uncertainty, and reproducibility in clinical AI systems.
+          - Developed and maintained preprocessing pipelines for ultra-high-field diffusion MRI and quantitative MRI.
+          - Harmonized neuroimaging datasets for sharing with the MAGNIMS network and multi-center 7T imaging analyses.
 
-    Selected Projects:
-      - name: Learning-based MRI reconstruction
+      - company: Medical Image Analysis Lab, Universidad Rey Juan Carlos
+        position: Research Assistant
+        location: Spain
+        start_date: 2022-11
+        end_date: 2023-06
         highlights:
-          - Exploring deep learning approaches for improving MRI image reconstruction.
+          - Led diffusion MRI analysis and statistical evaluation for an industry-partnered study on post-COVID-19 anosmia.
+          - Produced imaging-derived metrics supporting dissemination as a digital poster at ESMRMB 2023.
+          - Work supported by a National Research Collaboration Scholarship from the Spanish Ministry of Education.
 
-      - name: Medical imaging research tools
+    Research Projects:
+      - name: Reliable Cortical Interface Diffusion Imaging via Physics-Informed Deep Learning
         highlights:
-          - Building reproducible workflows for experiments, evaluation, and reporting.
+          - DDSA-funded PhD project developing physics-informed implicit neural representations for high-resolution diffusion MRI from k-space data.
+          - Aims to enable geometrically accurate in vivo diffusion imaging across cortical layers within feasible scan time.
+
+      - name: Deep Learning for Susceptibility and Eddy-Current Distortion Correction in UHF Diffusion MRI
+        highlights:
+          - MSc thesis project at DTU and DRCMR.
+          - Developed a physics-informed deep learning framework for joint susceptibility and eddy-current distortion correction in ultra-high-field diffusion MRI.
+
+      - name: Analysis of Olfactory Rehabilitation in Post-COVID-19 Anosmia Patients using Diffusion MRI
+        highlights:
+          - BSc thesis project at Universidad Rey Juan Carlos and GE Healthcare.
+          - Conducted a longitudinal diffusion MRI study to assess neuroplasticity following olfactory rehabilitation.
+
+    Conference Abstracts and Posters:
+      - title: Harnessing Open Innovation for Integrated Retrospective Motion Correction
+        authors:
+          - Coauthor
+        publisher: ISMRM Annual Meeting & Exhibition
+        releaseDate: 2026
+        summary: Digital poster on integrating retrospective motion correction from an external tracker into Siemens OpenRecon.
+
+      - title: Evaluation of Prospective Motion Correction in Functional MRI Using Markerless Optical Tracking
+        authors:
+          - First author
+        publisher: ISMRM Annual Meeting & Exhibition
+        releaseDate: 2025
+        summary: Digital poster presented in Honolulu, HI, USA.
+
+      - title: Diffusion MRI Tractography Reveals Neuroplasticity Following Olfactory Rehabilitation in Post-COVID-19 Anosmia
+        authors:
+          - Coauthor
+        publisher: ESMRMB Annual Scientific Meeting
+        releaseDate: 2023
+        summary: Digital poster presented in Basel, Switzerland.
+
+    Honors and Scholarships:
+      - title: DDSA PhD Fellowship
+        awarder: Danish Data Science Academy
+        date: 2026
+        summary: Fellowship supporting the PhD project on reliable cortical interface diffusion imaging via physics-informed deep learning.
+
+      - title: Research Collaboration Scholarship
+        awarder: Spanish Ministry of Education
+        date: 2022
+        summary: National scholarship awarded to initiate research careers; supported MRI research on olfactory rehabilitation after COVID-19.
 
     Skills:
-      - name: Research and technical interests
-        keywords: "Deep learning, medical imaging, MRI, Python, PyTorch, image reconstruction, segmentation, reproducible research"
+      - name: Computational methods
+        keywords: "Deep learning for inverse problems, 3D deformable image registration, domain adaptation, harmonization, statistical modeling, longitudinal analysis"
+
+      - name: Programming and infrastructure
+        keywords: "Python, PyTorch, MATLAB, Git, Linux, HPC clusters, pipeline automation, scientific programming"
+
+      - name: Neuroimaging and MRI
+        keywords: "Diffusion MRI, functional MRI, 7T ultra-high-field imaging, FreeSurfer, FSL, SPM, MRtrix3"
+
+    Languages:
+      - name: Spanish
+        summary: Native
+
+      - name: English
+        summary: Full professional proficiency, CAE C1
