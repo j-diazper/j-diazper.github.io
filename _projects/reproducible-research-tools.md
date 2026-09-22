@@ -12,4 +12,6 @@ The project used longitudinal diffusion MRI and statistical analysis to investig
 
 ## Poster
 
-[View the ESMRMB 2023 poster](/assets/pdf/MR-based%20objective%20assessment%20of%20COVID-19%20olfactory%20rehabilitation.pdf)
+![ESMRMB 2023 poster on MR-based assessment of COVID-19 olfactory rehabilitation](/assets/img/olfactory-rehabilitation-poster.jpg)
+
+[View the full-resolution ESMRMB 2023 poster PDF](/assets/pdf/MR-based%20objective%20assessment%20of%20COVID-19%20olfactory%20rehabilitation.pdf)
