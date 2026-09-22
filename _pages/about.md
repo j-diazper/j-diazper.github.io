@@ -27,19 +27,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a DDSA PhD Fellow working at the intersection of artificial intelligence, magnetic resonance imaging, and neuroimaging. My PhD project, **Reliable Cortical Interface Diffusion Imaging via Physics-Informed Deep Learning**, is based at the Technical University of Denmark and the Danish Research Centre for Magnetic Resonance.
+I am a DDSA PhD Fellow working at the Danish Center for Magnetic Resonance (DRCMR) and the Health Tech Department of the Technical University of Denmark (DTU). 
 
-My research focuses on physics-informed deep learning for diffusion MRI, with a particular interest in correcting motion, eddy-current, and susceptibility-induced distortions in ultra-high-field MRI. I am interested in methods that connect MR physics, inverse problems, and reliable AI systems for clinically meaningful imaging.
+My research focuses on physics-informed deep learning for diffusion MRI, with a particular interest in correcting geometric distortions in ultra-high-field MRI. I am interested in methods that integrate MR physics and inverse problems, contributing to the transition of ultra-high-field MRI from research into clinical practice.
 
-Before starting my PhD, I completed an MSc in Human-Centered Artificial Intelligence at DTU and a BSc in Biomedical Engineering at Universidad Rey Juan Carlos. I have worked on 7T diffusion MRI, fMRI motion correction, post-COVID-19 olfactory rehabilitation, and large-scale neuroimaging pipelines for multiple sclerosis research.
+Before starting my PhD, I completed an MSc in Human-Centered Artificial Intelligence at DTU and a BSc in Biomedical Engineering at Universidad Rey Juan Carlos. I have worked on 7T diffusion MRI, MRI motion correction, post-COVID-19 olfactory rehabilitation, and developing neuroimaging pipelines for multiple sclerosis research.
 
 ## Research interests
 
 - Physics-informed deep learning for MRI reconstruction and artifact correction
 - Ultra-high-field diffusion MRI and quantitative neuroimaging
 - Motion correction, image registration, and distortion correction
-- Reliable, reproducible AI methods for clinical and translational MRI
-
+- Reproducible AI methods for clinical and translational MRI
 ## Current project
 
-My PhD project develops physics-informed implicit neural representations operating directly on k-space data to enable geometrically accurate, high-resolution in vivo diffusion imaging across cortical layers within feasible scan time.
+My PhD project develops physics-informed implicit neural representations that operate directly on k-space data to enable geometrically accurate, high-resolution _in vivo_ diffusion imaging across cortical layers within feasible scan times.
